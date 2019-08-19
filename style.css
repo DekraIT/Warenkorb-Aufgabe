@@ -1,0 +1,44 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+
+.addNewItem {
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.addNewItem * {
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.hoverable {
+    cursor: pointer;
+}
+
+.numeric {
+    width: 3rem;
+}
+
+.itemContainer {
+
+    margin-top: 2rem;
+}
+
+.itemContainer li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#total {
+    border-top: 1px solid black;
+    width: 100%;
+    text-align: right;
+}
+
